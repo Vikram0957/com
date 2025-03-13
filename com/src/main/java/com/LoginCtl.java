@@ -19,9 +19,6 @@ public class LoginCtl extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<h4>This is LoginCtl Controller</h4>");
 
-		
-		
-		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
